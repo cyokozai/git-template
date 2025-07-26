@@ -22,7 +22,7 @@
 # 絵文字一覧：https://gitmoji.dev/
 # ==== Commit Message Template ====
 
-subject line
+<type>(<scope>): <description>  # e.g., feat(auth): add login functionality
 
 what happened
 
