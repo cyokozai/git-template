@@ -71,3 +71,4 @@ Git template with GitHub Actions workflows
 - 一部のワークフローは外部サービス（SonarQube、CodeClimate等）の設定が必要です
 - プロジェクトの性質に応じて不要なワークフローは削除してください
 - シークレットの設定を忘れずに行ってください
+- 使用したい機能のyamlファイルについて、各自`.deny`を取り除いた上で使用してください
