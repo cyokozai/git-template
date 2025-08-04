@@ -51,7 +51,7 @@ Git template with GitHub Actions workflows
 ## 使用方法
 
 1. このテンプレートを使用して新しいリポジトリを作成
-2. しよう目的や言語に合わせて [gitignore.io](https://www.toptal.com/developers/gitignore) から gitignore ファイルを作成
+2. 使用目的や言語に合わせて [gitignore.io](https://www.toptal.com/developers/gitignore) から gitignore ファイルを作成
    - 以下のコマンドを実行することで直接 gitignore ファイルを作成できます
 
       ```shell
