@@ -51,8 +51,15 @@ Git template with GitHub Actions workflows
 ## 使用方法
 
 1. このテンプレートを使用して新しいリポジトリを作成
-2. プロジェクトの要件に応じてワークフローをカスタマイズ
-3. 必要なシークレットを GitHub Settings で設定:
+2. 使用目的や言語に合わせて [gitignore.io](https://www.toptal.com/developers/gitignore) から gitignore ファイルを作成
+   - 以下のコマンドを実行することで直接 gitignore ファイルを作成できます
+
+      ```shell
+      curl https://www.toptal.com/developers/gitignore/api/{{ your language }},visualstudiocode -o ./.gitignore
+      ```
+
+3. プロジェクトの要件に応じてワークフローをカスタマイズ
+4. 必要なシークレットを GitHub Settings で設定:
    - `SONAR_TOKEN`: SonarQubeトークン
    - `CC_TEST_REPORTER_ID`: CodeClimate テストレポーターID
    - `LHCI_GITHUB_APP_TOKEN`: Lighthouse CI トークン
